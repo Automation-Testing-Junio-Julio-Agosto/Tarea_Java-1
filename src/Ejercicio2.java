@@ -4,7 +4,7 @@ public class Ejercicio2 {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in); //inicializamos el scanner
+        var scanner = new Scanner(System.in); //inicializamos el scanner
 
         System.out.print("Ingresar numero 1: ");
         var numero1 = scanner.nextInt();
